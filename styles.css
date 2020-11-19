@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Rubik&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-font: 'Open Sans Condensed', sans-serif;
+    --secondary-font: 'Rubik', sans-serif;
+    --main-font-color-dark: #000080;
+    --secondary-font-color: #FFEFD5;
+}
+
+html{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: var(--main-font-color-dark);
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+section h1{
+    color: var(--secondary-font-color);
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+section h4{
+    color: var(--secondary-font-color);
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.texts p{
+    color: black;
+    text-align: left;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+
+.texts p.replay{
+    text-align: right;
+}
